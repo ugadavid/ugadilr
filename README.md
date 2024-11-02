@@ -6,7 +6,7 @@
 **En local :** \Cours\M1\S1\03-DILR\projet
 
 
-Chers amis de la session RFC7 !
+## Chers amis de la session RFC7 !
 
 Comme vous l'avez sans doute noté, la phase 3 de notre session est commencée depuis avant-hier 29/10. 
 
@@ -20,7 +20,7 @@ Vous continuez donc à travailler dans l'espace spécifique de votre GT ouvert l
 
 Vous pouvez ajouter les éléments que vous souhaitez. Parlez aux tuteurs de votre GT pour décider. C'est un espace qui sert à communiquer et à partager des éléments, des liens, etc., utilisés par votre équipe. Moodle propose de nombreuses options !
 
-Rappelez-vous que vous avez jusqu'au 24 novembre pour réaliser vos production finales. Dans la phase suivante (fase 4, du 25/11 au 13/12), vous publierez un résumé de votre travail dans le forum "Caderno de Resumos" avec le(s) link(s) de vos productions. Et vous le ferez connaitre en le diffusant dans les réseaux sociaux. Plus d'indications à suivre.
+Rappelez-vous que vous avez jusqu'au **24 novembre pour réaliser vos production finales**. Dans la phase suivante (fase 4, **du 25/11 au 13/12), vous publierez un résumé de votre travail dans le forum "Caderno de Resumos"** avec le(s) link(s) de vos productions. Et vous le ferez connaitre en le diffusant dans les réseaux sociaux. Plus d'indications à suivre.
 
 Bonne continuation
 
