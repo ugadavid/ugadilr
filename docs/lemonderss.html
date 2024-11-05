@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Flux RSS Le Monde</title>
+</head>
+<body>
+  <h1>Dernières nouvelles - Le Monde</h1>
+  <div id="rss-feed"></div>
+
+  <script>
+    // Remplace `YOUR_API_KEY` par ta clé API RSS2JSON
+    const apiKey = "YOUR_API_KEY";
+    const rssUrl = "https://www.lemonde.fr/rss/une.xml";
+    const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${rssUrl}&api_key=${apiKey}`;
+
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        const feedContainer = document.getElementById('rss-feed');
+        const items = data.items.slice(0, 5); // Limite aux 5 premières actualités
+
+        items.forEach(item => {
+          const article = document.createElement('div');
+          article.innerHTML = `<h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
+                               <p>${item.description}</p>`;
+          feedContainer.appendChild(article);
+        });
+      })
+      .catch(error => console.error('Erreur lors du chargement du flux RSS:', error));
+  </script>
+</body>
+</html>
