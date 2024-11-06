@@ -5,6 +5,15 @@
 
 **En local :** \Cours\M1\S1\03-DILR\projet
 
+http://atlasflux.saynete.net/atlas_des_flux_rss_fra_presse.htm
+
+https://ugadavid.github.io/ugadilr/lemonderss.html
+
+https://rss2json.com/#rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss
+
+https://ugadavid.github.io/ugadilr/
+
+
 
 ## Chers amis de la session RFC7 !
 
