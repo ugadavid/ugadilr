@@ -2,14 +2,15 @@
   .tooltipi {
     position: relative;
     cursor: pointer;
-    color: #007bff; /* Couleur du lien ou mot */
-    text-decoration: underline; /* Facultatif */
+    color: red; /* Couleur du lien ou mot */
+    /*text-decoration: underline;  Facultatif */
+    font-style: italic;
   }
 
-  .tooltipi:hover::after {
+  .toto {
     content: attr(data-tooltip);
     /*white-space: pre-wrap; /* Permet de conserver les sauts de ligne */
-    white-space: pre-line;
+    /*white-space: pre-line;*/
     position: absolute;
     background: #333; /* Couleur de fond de l'infobulle */
     color: #fff; /* Couleur du texte */
@@ -23,7 +24,7 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   }
 
-  .tooltipi:hover::before {
+  .titi {
     content: "";
     position: absolute;
     top: 100%; /* Positionner la flèche en dessous */
