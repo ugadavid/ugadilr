@@ -11,7 +11,7 @@
     white-space: pre-wrap; /* Permet de conserver les sauts de ligne */
     position: absolute;
     background: #333; /* Couleur de fond de l'infobulle */
-    color: #fff; /* Couleur du texte */
+    color: #333; /* Couleur du texte */
     padding: 10px;
     border-radius: 5px;
     font-size: 0.9em;
