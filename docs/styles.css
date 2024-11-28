@@ -36,3 +36,32 @@
     z-index: 1000;
   }
 
+  .emfase {
+    font-weight: bold;
+  }
+
+
+  .fr {
+    color: #0056b3; /* Bleu pour le français */
+  }
+  
+  .it {
+    color: #1e7e34; /* Vert pour l'italien */
+  }
+  
+  .es {
+    color: #b02a37; /* Rouge pour l'espagnol */
+  }
+  
+  .po {
+    color: #d39e00; /* Jaune pour le portugais */
+  }
+  
+  .ro {
+    color: #5a189a; /* Violet pour le roumain */
+  }
+  
+  .co {
+    color: #23272b; /* Gris anthracite pour le corse */
+  }
+  
