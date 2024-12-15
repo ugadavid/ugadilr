@@ -67,17 +67,15 @@
   
 
   /* Style pour l'image de fond */
-  .background-image {
-    /*position: fixed; /* Fixe l'image pour qu'elle reste immobile lors du scroll */
-    background-attachment: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; /* L'image occupe toute la largeur */
-    height: 100%; /* L'image occupe toute la hauteur */
-    background-image: url('images/bandeau.jpg'); /* Ton image */
-    background-size: cover; /* L'image s'ajuste pour couvrir tout l'espace */
+  .header-banner {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Le bandeau occupe toute la hauteur de la fenêtre */
+    background-image: url('images/bandeau.jpg'); /* Chemin vers ton image */
+    background-size: cover; /* L'image couvre tout l'espace */
     background-position: center; /* Centre l'image */
     z-index: -1; /* Met l'image derrière le contenu */
+    overflow: hidden; /* Évite tout dépassement horizontal */
 }
 /* Contenu général */
 body {
