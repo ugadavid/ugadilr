@@ -65,3 +65,28 @@
     color: #23272b; /* Gris anthracite pour le corse */
   }
   
+
+  /* Style pour l'image de fond */
+  .background-image {
+    /*position: fixed; /* Fixe l'image pour qu'elle reste immobile lors du scroll */
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* L'image occupe toute la largeur */
+    height: 100%; /* L'image occupe toute la hauteur */
+    background-image: url('images/bandeau.jpg'); /* Ton image */
+    background-size: cover; /* L'image s'ajuste pour couvrir tout l'espace */
+    background-position: center; /* Centre l'image */
+    z-index: -1; /* Met l'image derrière le contenu */
+}
+/* Contenu général */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Évite le scroll horizontal */
+}
+.content {
+    position: relative;
+    z-index: 1; /* Le contenu passe au-dessus de l'image */
+    padding: 2rem;
+}
