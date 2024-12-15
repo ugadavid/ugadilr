@@ -65,3 +65,14 @@
     color: #23272b; /* Gris anthracite pour le corse */
   }
   
+
+header.bg-dark {
+    position: relative; /* Maintient le conteneur dans le flux normal */
+    overflow: hidden; /* Évite tout débordement */
+}
+
+header.bg-dark img {
+    display: block; /* Supprime les espaces indésirables autour de l'image */
+    width: 100%; /* L'image occupe toute la largeur du conteneur */
+    height: auto; /* La hauteur est ajustée proportionnellement */
+}
